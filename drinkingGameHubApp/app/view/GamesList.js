@@ -5,7 +5,7 @@ Ext.define('drinkingGameHubApp.view.GamesList', {
 	config: {
 		grouped:true,
         indexBar:true,
-        height: 500,
+        layout: 'fit',
         itemTpl: '{title}',
         store: 'Games',
         onItemDisclosure: true
